@@ -1,4 +1,6 @@
 # Simple minicap/minitouch over WebSockets
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fumeshnagori%2Fandroid_remote_control_os.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fumeshnagori%2Fandroid_remote_control_os?ref=badge_shield)
+
 
 Very lightweight android remote view/control over ADB.
 
@@ -35,3 +37,6 @@ notes:
 The STF project is great, but it has a lot of prerequisistes for running (RethinkDB, GraphicsMagick, ZeroMQ, ProtocolBuffers,, etc. Several of these I had to build from source. Nothing too bad, but time consuming. And I've never really used it as a "test farm," only to run a single phone, which seemed like overkill.
 
 Then a few days ago I found the [adbmirror](https://github.com/fhorinek/adbmirror) project, which uses minicap and minitouch, and sparked my interest. I always wanted to know how the underlying technology worked in STF, so I started digging in. I started with the node sample in the minicap repo, and built out from there, adding minitouch and then the service stuff.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fumeshnagori%2Fandroid_remote_control_os.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fumeshnagori%2Fandroid_remote_control_os?ref=badge_large)
